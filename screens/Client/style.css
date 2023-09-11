@@ -1,0 +1,119 @@
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+.boxClient {
+    margin: 120px 0px 0px 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+table {
+    width: 1400px;
+    height: 130px;
+    margin-left: 20px;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    padding: 8px;
+    text-align: center;
+    height: 50px;
+  }
+
+  th {
+    background: rgba(32, 32, 32, 1);
+    color: #fff;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+    text-align: center;
+    height: 50px;
+  }
+
+.boxCountClient {
+  display: flex;
+  gap: 15px;
+  position: absolute;
+}
+
+.count {
+  font-size: 23px;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.arrowL {
+  cursor: pointer;
+}
+
+.arrowR {
+  cursor: pointer;
+}
+
+
+@media only screen and (max-width:1440px){ 
+ .boxClient {
+  margin: 80px 0px 0px 235px;
+ }
+
+ th, td {
+  width: 10px;
+ }
+ 
+ table {
+  width: 98.4%;
+ }
+
+ .bigIn {
+  width: 10px;
+ }
+
+ .boxInput {
+  width: 100px;
+ }  
+
+ .boxCountClient {
+  bottom: -270px;
+  right: 10px;
+ }
+
+ #input2 {
+ }
+}
+
+@media only screen and (max-width:1024px) {
+  div {
+    max-width: 750px;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  .boxClient {
+    margin: 120px 0px 0px 220px;
+  }
+  
+  .boxCountClient {
+    bottom: -80px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+    table {
+      width: 505px;
+      margin-left: 10px;
+    }
+
+    .noneCell {
+      display: none;
+    }
+
+    .boxCountClient {
+      bottom: 100px;
+      right: 30px;
+    }
+}

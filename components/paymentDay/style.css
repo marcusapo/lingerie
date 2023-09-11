@@ -1,0 +1,159 @@
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+.boxPayment {
+    width: 360px;
+    height: 130px;
+    border-radius: 10px;
+    background: rgba(89, 192, 11, 1);
+    
+}
+
+.boxPayment:hover .dolarComplete {
+    display: flex;
+    transition: 0.7s ease;
+    margin-left: 20px;
+}
+
+.boxPayment:hover .dolar {
+    display: none;
+    
+}
+
+.boxPayment:hover {
+    transition: 0.5s;
+    background: rgb(67, 148, 5);
+}
+
+.boxTotally {
+    margin: 10px 0px 0px 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.boxTotally:hover {
+    margin: 0px 0px 0px 0px;
+}
+
+.boxTotally h1 {
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.boxTotally:hover h1 {
+    margin: 10px 0px 20px 240px;
+    font-size: 25px;
+    transition: 0.4s ;
+}
+
+.datePayment {
+    font-size: 30px;
+    width: 120px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 28px;
+}
+
+.dolarComplete {
+    margin-bottom: 20px;
+    transition: 0.7s ease;
+    width: 75px;
+}
+
+.dolar {
+    height: 70px;
+    width: 80px;
+}
+
+.boxInfos {
+    display: flex;
+    gap: 30px;
+}
+
+
+.weekPayment {
+    font-size: 40px;
+    margin: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+
+@media only screen and (max-width:1440px){ 
+    .dolar {
+        width: 60px;
+    }
+
+    .dolarComplete {
+        width: 60px;
+    }
+  }
+
+  @media only screen and (max-width:1024px) {
+    .boxPayment {
+        width: 300px;
+    }
+
+    .boxTotally h1 {
+        font-size: 22px;
+    }
+
+    .boxTotally:hover h1 {
+        font-size: 20px;
+        margin-left: 200px;
+        white-space: nowrap;
+    }
+
+    .datePayment {
+        font-size: 20px;
+        padding-top: 10px;
+    }
+
+    .boxInfos {
+        gap: 0px;
+    }
+
+    .boxInfos p {
+        margin-top: 30px;
+    }
+
+    .weekPayment {
+        font-size: 35px;
+        margin-left: 10px;
+    }
+
+    .dolar {
+        margin-top: 6px;
+    }
+  }
+
+  @media only screen and (max-width:425px) {
+    .boxPayment {
+        width: 230px;
+    }
+
+    .boxPayment:hover {
+        
+    }
+
+    .dolar {
+        width: 50px;
+        height: 50px;
+        margin-top: 30px;
+    }
+
+    .dolarComplete {
+        width: 50px;
+        height: 120px;
+        margin-bottom: 20px;
+    }
+
+    .boxInfos {
+        
+    }
+
+    .weekPayment {
+        font-size: 24px;
+        padding-top: 5px;
+    }
+  }

@@ -1,0 +1,252 @@
+* {
+    margin: 0px;
+}
+
+#onlyCell {
+    display: none;
+}
+
+.boxPaymentDash {
+    width: 1650px;
+    gap: 20px;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+}
+
+#mPayment {
+    margin-left: 200px;
+}
+
+.dashBox {
+    margin-left: 285px;
+    width: 100%;
+    height: 600px;
+    border-radius: 10px;
+    gap: 50px;
+    background: rgba(217, 217, 217, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#productMore {
+    top: 300px;
+    left: 350px;
+    font-size: 35px;
+    font-weight: bold;
+    position: absolute;
+}
+
+.dashBox:hover {
+    transition: 0.3s;
+    outline: 1px solid rgb(244, 15, 92);
+    box-shadow: 0px 0px 15px 0px rgba(244, 15, 91, 0.72);
+}
+
+.dashBoxSell {
+    width: 100%;
+    height: 600px;
+    border-radius: 10px;
+    margin-left: 200px;
+    background: rgba(217, 217, 217, 1);
+}
+
+.dashBoxSell:hover {
+    transition: 0.3s;
+    outline: 1px solid rgb(244, 15, 92);
+    box-shadow: 0px 0px 15px 0px rgba(244, 15, 91, 0.72);
+}
+
+.boxFavorite {
+    margin-bottom: 2px;
+}
+
+.titleDash {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.saleBox {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media only screen and (max-width:1440px){ 
+    .boxPayment {
+        width: 300px;
+    }
+
+    .boxPaymentDash {
+    }
+    #none {
+        display: none;
+    }
+
+    .dashBox {
+        width: 99.4%;
+    }
+
+    #A2 {
+        margin-left: -20px;
+    }
+
+    #productMore {
+        margin-left: 25px;
+    }
+
+    .saleBox {
+        justify-content: space-between;
+        gap: 0px;
+        margin-left: 20px;
+    }
+
+    .dashBoxSell {
+        width: 1090px;
+        margin-left: 285px;
+    }
+
+    .boxPaymentDash {
+        margin: 120px 40px 0px 15px;
+    }
+  }
+
+  .boxPaymentBox {
+    display: flex;
+    margin-left: 85px;
+    gap: 5px;
+  }
+
+  @media only screen and (max-width:1024px) {   
+    .boxPaymentDash {
+        margin-left: -60px;
+    }
+
+    .dashBox {
+        width: 770px;
+        gap: 20px;
+    }
+
+    #none10 {
+        display: none;
+    }
+
+    #A2 {
+        margin: 0px;
+        margin-left: -40px;
+    }
+
+    #A1 {
+        margin: 0px;
+    }
+
+    #productMore {
+        left: 230px;
+        font-size: 45px;
+    }
+
+    .dashBoxSell {
+        width: 94.2%;
+    }
+    
+    .boxPaymentBox {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+  }
+
+  @media only screen and (max-width:768px) {
+    .boxPaymentDash {
+        margin-right: 0px;
+    }
+
+    #mPayment {
+        margin: 0px;
+    }
+
+    .boxPaymentBox {
+        background: rgba(244, 244, 244, 1);
+        gap: 30px;
+        padding: 15px;
+        width: 505px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 270px;
+        border-radius: 10px;
+    }
+
+    .dashBox {
+        width: 515px;
+        gap: 10px;
+    }
+
+    #A2 {
+        margin-left: -22px;
+    }
+
+    #productMore {
+        font-size: 40px;
+    }
+
+    #onlyCell {
+        display: flex;
+    }
+
+    .saleBox {
+        flex-wrap: wrap;
+        gap: 30px;
+        display: flex;
+        margin-left: 0px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .dashBoxSell {
+        width: 515px;
+        height: 1000px;
+    }
+
+    #productMore {
+        top: 650px;
+    }
+    
+  }
+
+  @media only screen and (max-width:425px) {
+    .dashBox {
+        margin-left: 0px;
+        justify-content: start;
+    }
+
+    #productMore {
+        left: 150px;
+    }
+
+    .dashBoxSell {
+        margin-left: 0px;
+    }
+
+    .boxPaymentBox {
+        margin-left: -100px;
+    }
+
+    .boxPaymentDash {
+        margin-left: 160px;
+    }
+
+    .saleBox {
+        display: flex;
+        align-items: start;
+        justify-content: start;
+    }
+  }
+
+
+
+

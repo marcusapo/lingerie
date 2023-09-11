@@ -1,0 +1,21 @@
+.buttonViewStyle {
+    width: 150px;
+    font-size: 20px;
+    font-weight: 300;
+    height: 50px;
+    border-radius: 10px;
+    margin: 0px 0px 60px 0px;
+    background-color: #F40F5C;
+    color: #fff;
+    border: none;
+    font-family: 'Roboto';
+}
+
+.buttonViewStyle:hover {
+    background-color: #FF007A;
+}
+
+@media only screen and (max-width:1024px) {
+    .buttonViewStyle {}
+}
+

@@ -1,0 +1,672 @@
+section {
+
+}
+
+main {
+    display: flex;
+    gap: 160px;
+}
+
+.box {
+    margin: 30px;
+    width: 900px;
+    margin-top: 100px;
+    height: 700px;
+    border-radius: 7px;
+    margin-left: 70px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: 2px #F40F5C solid;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.details {
+    margin: 30px;
+    width: 700px;
+    height: 700px;
+    margin-top: 100px;
+    border-radius: 7px;
+    border: 2px #F40F5C solid;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background-color: #fff;
+}
+
+.carousselProduct {
+    display: none;
+}
+
+.arrowsP {
+    gap: 570px;
+    margin-left: 80px;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.arrowDown {
+    height: 50px;
+    margin: 590px 0px 0px 10px;
+    background: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, 
+    rgba(5, 5, 5, 0.76) 100%);
+    width: 155px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dadBoxShadow {
+    margin-left: 20px;
+    gap: 20px;
+    display: flex;
+}
+
+.boxShadow {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    width: 150px;
+    border-radius: 10px;
+    height: 40px;
+    background-color: #fff;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.colorPink {
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: #F40F5C;
+}
+
+.colorGreen {
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: rgba(36, 255, 0, 1);
+}
+
+.colorPurple {
+    border-radius: 20px;
+    width: 20px;
+    height: 20px;
+    background: rgba(151, 71, 255, 1);
+}
+
+.colorYellow {
+    border-radius: 20px;
+    width: 20px;
+    height: 20px;
+    background: rgba(252, 168, 4, 1);
+}
+
+.letterP {
+    border-radius: 14px;
+    width: 24px;
+    height: 24px;
+    font-size: 13px;
+    background: rgba(81, 81, 81, 1);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.letterM {
+    border-radius: 14px;
+    width: 24px;
+    height: 24px;
+    font-size: 13px;
+    background: rgba(81, 81, 81, 1);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.letterG {
+    border-radius: 14px;
+    width: 24px;
+    height: 24px;
+    font-size: 13px;
+    background: rgba(81, 81, 81, 1);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.letterXG {
+    border-radius: 14px;
+    width: 24px;
+    height: 24px;
+    font-size: 13px;
+    background: rgba(81, 81, 81, 1);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxInput {
+    padding: 10px;
+    font-size: 20px;
+    margin: 20px;
+    height: 300px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+    color: #c1c1c1;
+}
+
+.boxButton {
+    margin: 80px 0px 0px 10px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.buttonMore {
+    height: 30px;
+    width: 30px;
+    font-size: 28px;
+    border-radius: 9px 0px 0px 0px;
+    border-bottom: 2px solid white;
+    background-color: #F40F5C;
+    color: #fff;
+    display: flex;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.buttonMinus {
+    height: 30px;
+    width: 30px;
+    margin-bottom: 25px;
+    border-radius: 0px 0px 0px 9px;
+    background-color: #F40F5C;
+    color: #fff;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    border: none;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+.countNumber {
+    font-size: 25px;
+    margin-bottom: 25px;
+    height: 58px;
+    width: 40px;
+    border-radius: 0px 8px 8px 0px;
+    border: 1px #F40F5C solid;
+    display: flex;
+    font-weight: bold;
+    font-family: 'Inter',sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+
+.freight {
+    width: 150px;
+    height: 30px;
+    font-size: 24px;
+    margin-left: 30px;
+    border-radius: 10px;
+    border:1px solid rgba(89, 192, 11, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calcFreight {
+    margin-left: 18px;
+    margin-bottom: 7px;
+    white-space: nowrap;
+    color: rgba(0,0,0,1);
+    font-size: 20px;
+}
+
+.boxLittleCar {
+    margin: 0px 0px 14px 20px;
+    border-radius: 12px;
+    width: 100px;
+    height: 70px;
+    background-color:rgba(89, 192, 11, 1) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxLittleCar:hover {
+    background: rgba(81, 163, 19, 1);
+}
+
+.littleCar {
+    width: 55px;
+    height: 40px;
+}
+
+.buy {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttonBuy {
+    font-size: 30px;
+    margin: 40px 0px 12px 0px;
+    width: 220px;
+    height: 70px;
+    border-radius: 12px;
+    background-color: rgba(89,192,11,1);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter',sans-serif;
+}
+
+.buttonBuy:hover {
+    background: rgba(81, 163, 19, 1);
+}
+
+.antiguePrice{ 
+    font-size: 22px;
+    gap: 7px;
+    height: 17px;
+    margin-right: 47px;
+    color: #c1c1c1;
+    display: flex;
+}
+
+.newPrice {
+    height: 30px;
+    font-size: 27px;
+    gap: 7px;
+    display: flex;
+    font-family: 'Inter', sans-serif;
+}
+
+.especity {
+    font-size: 50px;
+    margin-left: 67px;
+    font-family: 'Inter', sans-serif;
+}
+
+.boxEspecity {
+    border-radius: 20px;
+    width: 95%;
+    margin-left: 67px;
+    height: 408px;
+    background: rgba(244, 244, 244, 1);
+}
+
+.productRelac {
+    font-size: 50px;
+    margin-left: 67px;
+    margin-top: 60px;
+    font-family: 'Inter', sans-serif;
+}
+
+.boxProduct {
+    border-radius: 20px;
+    margin-left: 67px;
+    height:500px;
+    gap: 40px;
+    width: 95%;
+    background: rgba(244, 244, 244, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width:1440px){ 
+
+    .carousselProduct {
+        display: none;
+       }
+    
+    .box {
+        width: 600px;
+        height: 500px;
+    }
+    .arrowsP {
+        gap: 380px;
+        margin-right: 10px;
+    }
+
+    .arrowDown {
+        width: 110px;
+        margin-top: 450px;
+        margin-left: 0px;
+    }
+
+    .details {
+        width: 500px;
+        height: 500px;
+    }
+
+    .boxInput {
+        height: 200px;
+    }
+
+    .buttonBuy {
+        width: 180px;
+        height: 60px;
+        margin-bottom: 15px;
+    }
+
+    .freight {
+        width: 100px;
+        font-size: 19px;
+    }
+
+    .littleCar {
+        width: 45px;
+        height: 30px;
+    }
+
+    .boxLittleCar {
+        width: 90px;
+        height: 60px;
+    }
+
+    .buy {
+        margin-top: -160px;
+    }
+
+    .buy p {
+        margin: 0px;
+        margin-top: 30px;
+    }
+
+    .boxButton {
+        margin-top: 70px;
+    }
+
+    .countNumber {
+        margin-bottom: 10px;
+    }
+
+    .buttonMinus {
+        margin: 0px;
+        margin-bottom: 10px;
+    }
+
+    #none {
+        display: none;
+    }
+
+    .boxEspecity {
+        margin: 0px;
+        margin-left: 35px;
+    }
+
+    .boxProduct {
+        gap: 70px;
+        justify-content: end;
+        margin: 0px;
+        margin-left: 35px;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+   .carousselProduct {
+    display: none;
+   }
+   
+    .box {
+        margin-top: 100px;
+        margin-left: 10px;
+        margin-right: 0px;
+        width: 550px;
+    }
+
+    .buttonBuy {
+        width: 140px;
+        font-size: 25px;
+        margin-top: 30px;
+    }
+
+    .littleCar {
+        width: 35px;
+        height: 25px;
+    }
+
+    .freight {
+        width: 80px;
+        font-size: 14px;
+    }
+
+    .boxLittleCar {
+        width: 80px;
+        height: 50px;
+    }
+    
+    .arrowDown {
+        width: 80px;
+        margin-left: 0px;
+    }
+
+    .arrowsP {
+        gap: 300px;
+        margin-right: 20px;
+    }
+
+    .details {
+        margin-left: -135px;
+        width: 470px;
+    }
+
+    .buttonMore {
+        width: 25px;
+    }
+
+    .buttonMinus {
+        width: 25px;
+    }
+
+    .countNumber {
+        width: 30px;
+    }
+
+    .antiguePrice {
+        margin-right: 0px;
+        margin-left: -40px;
+        font-size: 18px;
+        margin-top: 0px;
+    }
+
+    .antiguePrice p {
+        white-space: nowrap;
+    }
+
+    .newPrice {
+        margin: 0px;
+        width: 0px;
+        font-size: 20px;
+        margin-right: 130px;
+        margin-top: 0px;
+    }
+
+    .newPrice p {
+        white-space: nowrap;
+    }
+
+    #none2 {
+        display: none;
+    }
+
+    .boxProduct {
+        justify-content: space-between;
+    }
+
+}
+
+@media only screen and (max-width:768px) {
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box {
+        width: 730px;
+        margin-bottom: 0px;
+        margin-left: 10px;
+        border-bottom: 0px;
+        border-radius: 7px 0px 0px 7px;
+    }
+
+    .arrowDown {
+        display: none;
+    }
+
+    .arrowsP {
+        margin-left: 8px;
+        margin-right: 8px;
+        width: 100%;
+        align-items: center;
+        gap: 680px;
+    }
+
+    .details {
+        width: 730px;
+        margin: 0px;
+        margin-top: -165px;
+        margin-left: 10px;
+        border: 0px 2px 2px 2px #F40F5C solid;
+        border-top: 0px;
+        border-radius: 0px 0px 7px 7px;
+    }
+
+    .boxEspecity {
+        margin-left: 10px;
+        width: 730px;
+    }
+
+    .especity {
+        margin-left: 30px;
+    }
+    
+    .productRelac {
+        margin-left: 30px;
+    }
+
+    .boxProduct {
+        width: 730px;
+        margin-left: 10px;
+        gap: 0px;
+    }
+
+    .countNumber {
+        height: 57px;
+        margin-right: 80px;
+    }
+
+    .freight {
+        margin-right: 80px;
+    }
+
+    .boxLittleCar {
+        margin-right: 80px;
+    }
+    
+}
+
+@media only screen and (max-width:425px) {
+    .box {
+        width:395px;
+        margin-left: 6px;
+    }
+
+    .arrowsP {
+        gap: 340px;
+    }
+
+    .details {
+        width: 395px;
+        margin-left: 6px;
+    }
+
+    .freight {
+        width: 68px;
+        font-size: 12px;
+        margin-right: 40px;
+    }
+
+    .buttonBuy {
+        width: 120px;
+        font-size: 23px;
+        margin-right: 20px;
+        margin-bottom: 14px;
+    }
+
+    .littleCar {
+        width: 30px;
+    }
+
+    .boxLittleCar {
+        width: 50px;
+        padding: 1px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .boxInput {
+        
+    }
+
+    .especity {
+        font-size: 40px;
+        margin-top: 20px;
+    }
+
+    .productRelac {
+        font-size: 40px;
+    }
+
+    .boxEspecity {
+        width: 400px;
+        margin-left: 6px;
+    }
+
+    .boxProduct {
+        width: 400px;
+        margin-left: 6px;
+        padding-left: 10px;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    #noneCellS {
+        display: none;
+    }
+
+    .calcFreight {
+        font-size: 16px;
+        margin-left: 20px;
+    }
+
+    .countNumber {
+        width: 35px;
+        margin-right: 0px;
+        font-size: 25px;
+    }
+
+    .buttonMinus {
+        margin-left: 20px;
+    }
+
+    .buttonMore {
+        margin-left: 20px;
+    }
+}
+
+  
+
+
+
+
+

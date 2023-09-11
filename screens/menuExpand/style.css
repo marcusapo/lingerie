@@ -1,0 +1,17 @@
+body {
+    background: rgba(244, 15, 92, 1);
+}
+
+
+.boxLine {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lineMenu {
+    width: 95%;
+    height: 1px;
+    margin-top: 75px;
+    background-color: #fff;
+}

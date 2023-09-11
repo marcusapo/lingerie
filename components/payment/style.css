@@ -1,0 +1,100 @@
+h1 {
+    transition: 0.4s;
+}
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+.boxPayment {
+    width: 370px;
+    height: 130px;
+    border-radius: 10px;
+    background: rgba(89, 192, 11, 1);
+    transition: 0.5s;
+}
+
+.boxPayment:hover .dolarComplete {
+    transform: translateY(-10px);
+    opacity: 1;
+}
+
+.boxPayment:hover .dolar {
+    opacity: 0;
+}
+
+.boxPayment:hover {
+    transition: 0.5s;
+    background: rgb(67, 148, 5);
+}
+
+.boxTotally {
+    margin: 10px 0px 0px 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.boxTotally:hover {
+    margin: 0px 0px 0px 0px;
+}
+
+.boxTotally h1 {
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.boxTotally:hover h1 {
+    margin: 10px 0px 20px 240px;
+    font-size: 25px;
+    transition: 0.4s ;
+}
+
+.datePayment {
+    font-size: 30px;
+    width: 120px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 28px;
+    margin-left: 20px;
+}
+
+.dolarComplete {
+    margin-bottom: 20px;
+    transition: 0.7s;
+    width: 80px;
+    display: none;
+}
+
+.dolar {
+    height: 70px;
+    width: 80px;
+    transition: 0.7s;
+    opacity: 1;
+}
+
+.boxInfos {
+    gap: 30px;
+    display: flex;
+}
+
+
+.weekPayment {
+    font-size: 40px;
+    margin: 20px 10px 0px 0px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.boxPaymentNumber {
+    display: flex;
+    width: 0px;
+    background-color: red;
+    margin-left: 10px;
+}
+
+  @media only screen and (max-width:1024px){
+    #smallPrice {
+        
+    }
+    
+  }

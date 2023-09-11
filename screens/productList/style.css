@@ -1,0 +1,225 @@
+section {
+    display: flex;
+}
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+.textProductList {
+    margin: 0px 60px 0px 40px;
+    margin-top: 150px;
+    color:rgba(38, 38, 38, 1);
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.subMenu {
+    display: none;
+}
+
+.departament2 {
+    margin-left: 20px;
+}
+.dadItemBig {
+    gap: 60px;
+    margin: 50px;
+    display: flex;
+}
+.textDepartament2 {
+    margin-left: 20px;
+}
+
+.boxInput {
+    border-radius: 10px;
+    margin: 155px 0px 0px 0px;
+    width: 1400px;
+    height: 100px;
+    background-color: rgba(244, 15, 92, 1);
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.numberPages {
+    font-size: 20px;
+}
+
+
+.boxFavorite {
+    margin-top: 8px;
+}
+
+.input {
+    width: 35%;
+    height: 63px;
+    border-radius: 10px;
+    margin: 10px 20px 10px 10px;
+    font-size: 25px;
+    border: none;
+}
+
+.selectInfo {
+    margin-top: 18px;
+}
+
+.bBProductList {
+    width: 1400px;
+    margin-left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+.dadProductsList {
+    gap: 60px;
+    margin: 40px 20px 40px 60px;
+    display: flex;
+}
+
+.pages {
+    gap: 10px;
+    width: 96%;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: end;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+}
+
+.pagesArrowR {
+    margin-left: 10px;
+}
+
+.price {
+    margin-right: 25px;
+}
+
+.letterMw {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media only screen and (max-width:1440px){ 
+ p {
+    font-size: 18px;
+    margin: 0px;
+ }
+
+ .boxInput {
+    width: 1100px;
+ }
+
+ .bBProductList {
+    width: 1100px;
+ }
+
+ #none {
+    display: none;
+ }
+
+ .dadProductsList {
+    margin-left: 110px;
+ }
+
+ .offPrice {
+    flex-direction: column;
+    flex-wrap: wrap;
+ }
+
+ .price {
+    margin: 0px;
+ }
+}
+
+@media only screen and (max-width:1024px) {
+    .textProductList {
+        margin-left: 10px;
+    }
+
+    .boxInput {
+        width: 750px;
+    }
+
+    .bBProductList {
+        width: 750px;
+    }
+
+    .dadProductsList {
+        margin: 30px 0px 20px 20px;
+        gap: 30px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .textProductList {
+        margin-left: 0px;
+        display: none;
+    }
+
+    .boxInput {
+        width: 730px;
+        margin-left: 10px;
+        margin-top: 80px;
+    }
+
+    .input {
+        width: 300px;
+    }
+
+    .bBProductList {
+        margin-left: 10px;
+        width: 730px;
+    }
+
+    .dadCell {
+        margin-left: 0px;
+    }
+
+    .dadProductsList {
+        margin-left: 33px;
+    }
+
+    .subMenu {
+        background: rgba(244, 244, 244, 1);
+        margin-top: 60px;
+        width: 100.8%;
+        height: 70px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .subMenu p {
+        color: #000;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .favoriteComp {
+        margin-top: 0px;
+    }
+
+    .favoriteIncomp {
+        margin-top: 0px;
+    }
+
+    .boxItem:hover .favoriteComp  {
+        margin-top: -7px;
+    }
+
+    .boxItem:hover .favoriteIncomp {
+        margin-top: -7px;
+    }
+
+    .textMenu {
+        margin-right: 20px;
+        gap: 40px;
+    }
+}
+

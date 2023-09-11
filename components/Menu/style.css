@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+}
+
+header {
+    height: 70px;
+    width: 100%;
+    transition: 0.5s;
+    background-color: #F40F5C;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px;
+    position: fixed;
+    z-index: 999;
+    box-sizing: border-box;
+}
+
+.borderMenu {
+    top: 90px;
+    margin: 0px 0px 0px 40px ;
+    transition: 0.3s;
+    width: 95%;
+    height: 1px;
+    background-color: #fff;
+    position: fixed;
+}
+
+header.scrolled {
+    transition: 0.8s;
+    background-color: #000;
+}
+
+header.scrolled p {
+    transition: 0.8s;
+    color: #F40F5C;
+}
+
+header#expanded {
+    height: 100vh;
+    padding-top: 20px;
+    align-items: flex-start;
+}
+
+.textMenu {
+    letter-spacing: 2px;
+    gap: 50px;
+    font-size: 24px;
+    color: #fff;
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+#P1:hover {
+    scale: 1.3;
+    transition: 0.5s;
+}
+#P2:hover {
+    scale: 1.3;
+    transition: 0.5s;
+}
+#P3:hover {
+    scale: 1.3;
+    transition: 0.5s;
+}
+#P4:hover {
+    scale: 1.3;
+    transition: 0.5s;
+}
+.F2 {
+    width: 80px;
+    transition: linear 0.5s;
+    border-radius: 40px;
+    height: 35px;
+    font-weight: 600;
+    font-size: 25px;
+    border:  1px solid #fff;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.F2:hover {
+    background-color: #fff;
+    color: #F40F5C;
+}
+
+.indexBox {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.boxMenu {
+    width: 50px;
+    height: 50px;
+    background-color: #24FF00;
+}
+
+.unic {
+    width: 40px;
+    height: 35px;
+}
+
+@media only screen and (max-width:1440px){ 
+   
+
+    .textMenu {
+        font-size: 18px;
+    }
+
+    .unic {
+        width: 25px;
+        height: 25px;
+    }
+
+    header {
+        height: 60px;
+        display: flex;
+        align-items: center;
+    }
+
+}
+
+@media only screen and (max-width:1024px){
+   .textMenu {
+        font-size: 16px;
+        gap: 30px;
+        margin-right: 60px;
+   }
+
+   .unic {
+    padding: 0px;
+    margin: 0px;
+   }
+
+   .F2 {
+    margin: 0px;
+    font-size: 20px;
+    height: 30px;
+    margin-right: 20px;
+   }
+}
+
+
+@media only screen and (max-width:768px) {
+    header p {
+        margin-top: 5px;
+    }
+   
+    .textMenu {
+        font-size: 14px;
+        gap: 40px;
+        margin-left: -40px;
+    }
+
+    .boxMenu {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:425px) {
+    .textMenu {
+        font-size: 14px;
+    }
+
+    .unic {
+        width: 20px;
+        height: 20px;
+        margin-left: 10px;
+    }
+
+    #P4 {
+        display: none;
+    }
+
+    .F2 {
+        display: none;
+    }
+}

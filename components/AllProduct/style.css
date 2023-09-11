@@ -1,0 +1,135 @@
+.dadItemBig {
+    gap: 0px;
+    margin-left: 30px;
+    margin-top: -120px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.product {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 30px;
+}
+
+.product h1 {
+    font-size: 56px;
+    color: #fff;
+    font-family: 'Lexend Deca';
+    margin-left: 10px;
+    margin-top: 0px;
+}
+
+#bttPr {
+  margin-left: 0px;
+}
+
+
+#bigBoxAll {
+  width: 99.2%;
+  height: 1780px;
+  margin: 40px 0px 0px 10px;
+}
+
+#ml {
+  margin-top: 40px;
+}
+
+
+@media only screen and (max-width:1440px){ 
+  .product {
+    gap: 800px;
+    margin-left: 10px;
+  }
+
+  .dadItemBig {
+    margin-left: 40px;
+    gap:22px;
+  }
+
+  
+#itemBigBox {
+    display: none;
+}
+
+}
+
+@media only screen and (max-width:1024px) {
+  .product {
+    gap: 390px;
+    margin-left: 35px;
+    margin-top: 20px;
+  }
+
+  .dadItemBig {
+    margin: 0px;
+    margin-right: 10px;
+    margin-top: -180px;
+  }
+
+  #bigBoxAll {
+    margin-left: 3px;
+  }
+
+  #ml  {
+    margin-left: -4px;
+  }
+
+  #none2 {
+    display: none;
+  }
+
+  .dadItemBig {
+    margin-left: 62px;
+  }
+
+  #none10 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .dadItemBig {
+    gap: 40px;
+  }
+
+  .product {
+    width: 92%;
+    margin: 0px;
+    gap: 0px;
+    margin-top: -100px;
+    margin-left: 27px;
+  }
+
+  #vbAll {
+    white-space: nowrap;
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width:425px) {
+  #noneCellS {
+    display: none;
+  }
+  .product h1 {
+    font-size: 40px;
+  }
+
+  .product {
+    width: 86%;
+  }
+
+  #vbAll {
+    width: 100px;
+    font-size: 18px;
+  }
+
+  #bigBoxAll {
+    height: 1400px;
+    width: 400px;
+  }
+}

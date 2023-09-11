@@ -1,0 +1,7 @@
+type {
+    height: 550px;
+    width: 100%;
+    background: url(../src/assets/midPhoto.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}

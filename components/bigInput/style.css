@@ -1,0 +1,35 @@
+.input {
+    background-color: rgba(244, 15, 92, 1);
+    border-radius: 10px;
+    margin: 25px 0px 0px 20px;
+    width: 1400px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+#input2 {
+    border: none;
+    width: 35%;
+    height: 63px;
+    border-radius: 10px;
+    margin: 10px 20px 10px 10px;
+    font-size: 25px;
+    background-color: #fff;
+}
+
+
+
+@media only screen and (max-width:1440px){ 
+    #inputSmall {
+        border-radius: 10px;
+        margin: 25px 0px 0px 20px;
+        width: 1150px;
+        height: 100px;
+        display: flex;
+        background-color: rgba(244, 15, 92, 1);
+        align-items: center;
+        justify-content: end;
+    }
+   }

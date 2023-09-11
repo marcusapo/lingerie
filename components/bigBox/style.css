@@ -1,0 +1,27 @@
+.bigBox {
+    width: 95%;
+    height: 1640px;
+    border-radius: 10px;
+    margin: 30px 0px 30px 58px;
+    transition: all ease 0.2s;
+    background-color: #202020;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.bigBox:hover {
+    transition: 0.3s;
+    outline: 2px solid rgb(244, 15, 92);
+    box-shadow: 0px 0px 15px 0px rgba(244, 15, 91, 0.72);
+}
+@media only screen and (max-width:1440px){ 
+    .bigBox {
+     width: 90%;
+     margin: 20px 0px 0px 70px;
+    }
+   
+   }
+
